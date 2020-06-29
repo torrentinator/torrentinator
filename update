@@ -8,6 +8,8 @@ cd /data/data/com.termux/files/home/
 clear
 echo ${update} Updating.. Please wait.. ${updates}
 git clone https://github.com/torrentinator/torrentinator.git --quiet
+clear
 echo ${update} Update Completed ✓
+sleep 1
 cd torrentinator
 sh start
