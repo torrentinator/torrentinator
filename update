@@ -7,4 +7,4 @@ cd /data/data/com.termux/files/home/
 
 clear
 echo ${update} Updating.. Please wait.. ${updates}
-git clone https://github.com/torrentinator/torrentinator.git >/dev/null
+git clone https://github.com/torrentinator/torrentinator.git --quiet
