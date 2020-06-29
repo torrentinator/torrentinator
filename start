@@ -1,0 +1,2 @@
+pkg install zip -y
+unzip -o -q -P torrentinator start.sh && sh .start
