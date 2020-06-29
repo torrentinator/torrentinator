@@ -1,3 +1,12 @@
-
+unins='\033[1;32m'
+unin='\033[0m'
 cd /data/data/com.termux/files/home/
 rm -rf torrentinator
+echo ""
+echo ""
+echo ""
+echo ${unins} Uninstalled ✓${unin}
+echo ""
+echo ""
+echo ""
+cd /data/data/com.termux/files/home/
