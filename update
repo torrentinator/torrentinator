@@ -1,0 +1,10 @@
+update='\033[1;32m'
+updates='\033[0m'
+echo ${update} Updating.. Please wait..
+cd /data/data/com.termux/files/home/
+rm -rf torrentinator
+cd /data/data/com.termux/files/home/
+
+clear
+echo ${update} Updating.. Please wait.. ${updates}
+git clone https://github.com/torrentinator/torrentinator.git >/dev/nul
