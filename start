@@ -1,7 +1,6 @@
 
 
 
-apt install aria2 -y
 clear
 cd /sdcard/download/
 mkdir www.philiphacker.in
@@ -31,6 +30,14 @@ blue='\033[1;34m'
 purple='\033[1;35m'
 cyan='\033[1;36m'
 NC='\033[0m' # No Color
+
+
+
+clear
+echo ${lime} First Time Tool Initiated...
+echo ${lime} Installing Requirements.. Please Wait...
+apt install aria2 -y >/dev/null
+
 
 clear
 printf "${red}====================================\n"
