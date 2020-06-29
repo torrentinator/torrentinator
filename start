@@ -344,7 +344,9 @@ cd /data/data/com.termux/files/home/torrentinator/
     sh start
 fi
 
-
+elif [ $choice -eq 8 ]
+then
+xdg-open https://philiphacker.in
 
 elif [ $choice -eq 0 ]
 then
