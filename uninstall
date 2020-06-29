@@ -9,4 +9,4 @@ echo ${unins} Uninstalled ✓${unin}
 echo ""
 echo ""
 echo ""
-cd /data/data/com.termux/files/home/
+cd ..
