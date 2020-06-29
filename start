@@ -343,7 +343,7 @@ then
 clear
 printf "${NC}\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 printf "${lime}Perry The Platypus !\n${NC}"
-sleep 2
+sleep 1
 clear
 exit
 else
@@ -351,5 +351,5 @@ clear
 printf "${NC}\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 printf "${lime}Invalid Choice ! Try Again..\n${NC}"
 sleep 1
-sh .menu
+sh start
 fi
