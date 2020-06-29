@@ -34,11 +34,12 @@ NC='\033[0m' # No Color
 
 
 clear
-echo ${lime} First Time Tool Initiated...
-echo ${lime} Installing Requirements.. Please Wait...
-apt install aria2 -y >/dev/null
 
-
+echo ${lime} Installing Requirements.. Please Wait... ${NC}
+apt install aria2 -y
+clear
+echo ${lime}Starting Tool...
+sleep 1
 clear
 printf "${red}====================================\n"
 printf "${lime}             Torrentinator    \n"
