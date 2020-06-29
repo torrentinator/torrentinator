@@ -1,7 +1,8 @@
 
 
 
-
+apt install aria2 -y
+clear
 cd /sdcard/download/
 mkdir www.philiphacker.in
 cd www.philiphacker.in
