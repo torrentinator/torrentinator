@@ -1,0 +1,3 @@
+
+cd /data/data/com.termux/files/home/
+rm -rf torrentinator
