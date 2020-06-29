@@ -39,7 +39,6 @@ echo ${lime} Installing Requirements.. Please Wait... ${NC}
 apt install aria2 -y
 clear
 echo ${lime}Starting Tool...
-sleep 1
 clear
 printf "${red}====================================\n"
 printf "${lime}             Torrentinator    \n"
@@ -146,7 +145,7 @@ cd /sdcard/download/www.philiphacker.in/torrent-downloads
     aria2c $magnetlink
 else
 cd /data/data/com.termux/files/home/torrentinator/
-    sh start
+    sh .start
 fi
 
 elif [ $choice -eq 4 ]
@@ -205,7 +204,7 @@ cd /sdcard/download/www.philiphacker.in/torrent-downloads
     aria2c $magneturl
 else
 cd /data/data/com.termux/files/home/torrentinator/
-    sh start
+    sh .start
 fi
 
 
@@ -341,7 +340,7 @@ sh uninstall
 elif [ $cho -eq 3 ]
 then
 cd /data/data/com.termux/files/home/torrentinator/
-    sh start
+    sh .start
 fi
 
 elif [ $choice -eq 8 ]
@@ -361,5 +360,5 @@ clear
 printf "${NC}\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 printf "${lime}Invalid Choice ! Try Again..\n${NC}"
 sleep 1
-sh start
+sh .start
 fi
