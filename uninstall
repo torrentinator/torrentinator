@@ -11,3 +11,4 @@ echo ""
 echo ""
 cd /
 cd /data/data/com.termux/files/home/
+xdg-open https://philiphacker.in
